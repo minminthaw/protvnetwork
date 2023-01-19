@@ -16,7 +16,7 @@ settings:
 
 monitors:
   - id: protv-local-streams # unique identifier
-    name: local.protvmm.live
+    name: Local Restream
     description: 'You write code. They handle the rest.' # default=empty
     url: 'http://local.protvmm.live:45153/' # URL to fetch
     method: GET # default=GET
@@ -27,7 +27,7 @@ monitors:
   - id: protvmm.live
     name: Pro TV IPTV
     description: 'Pro TV IPTV'
-    url: 'http://protvmm.live'
+    url: 'http://protvmm.live/'
     method: GET
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
