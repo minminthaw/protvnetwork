@@ -36,4 +36,4 @@ monitors:
     name: Pro TV Restream
     url: 'http://tv.protvmm.live:25461/'
     method: GET
-    expectStatus: 200
+    expectStatus: 302
